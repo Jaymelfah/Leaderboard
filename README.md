@@ -1,7 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leadership Board
-In this project, I built a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. The simple web page will be built using webpack and served by a webpack dev server.
+In this project I built a JavaScript project for the Leaderboard list app, using webpack and ES6 features. 
+This is a first working version of the app following a wireframe, but without styling. 
 
  ## Learning objectives
 - Use JavaScript modules
