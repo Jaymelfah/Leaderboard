@@ -24,6 +24,8 @@ body {
   margin-top: 5%;
   margin-inline: 1rem;
   justify-content: space-around;
+  border: 1px solid red;
+  margin-bottom: 22.5%;
 }
 
 .scores-title {
@@ -65,6 +67,7 @@ body {
   border: 3px solid black;
   min-height: 40px;
   margin-top: 1rem;
+  margin-bottom: 10%;
 }
 
 .scores-container :nth-child(even) {
@@ -84,8 +87,6 @@ footer {
   background-color: rgba(128, 128, 128, 0.393);
   min-height: 2.8rem;
   width: 100%;
-  position: absolute;
-  bottom: 0;
   border: 3px solid black;
   padding-bottom: 0;
 }
