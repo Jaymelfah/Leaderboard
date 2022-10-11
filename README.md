@@ -2,13 +2,16 @@
 
 # Leadership Board
 In this project I built a JavaScript project for the Leaderboard list app, using webpack and ES6 features. 
-I added a feature of sending and receiving data from/to the Leaderboard API.
+I added a feature of sending and receiving data from/to the Leaderboard API and added styling.
 
  ## Learning objectives
 - Use JavaScript modules
 - Use webpack to bundle JavaScript.
 - Learn how to use proper ES6 syntax.
 - Use ES6 modules to write modular JavaScript.
+
+## Live demo
+Please use this [link](https://jaymelfah.github.io/Leaderboard/dist/)
 
 ## Built With
 
@@ -62,4 +65,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE.md) licensed.
