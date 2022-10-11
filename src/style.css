@@ -1,3 +1,96 @@
+@import url('http://fonts.cdnfonts.com/css/comic-futura');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
-    background-color: bisque;
+  background-color: #fff;
+  font-family: 'Comic Futura', sans-serif;
+  height: 100vh;
+  position: relative;
+}
+
+.leaderboard {
+  font-size: 5.125rem;
+  font-weight: 700;
+  margin-inline: 5rem;
+  padding-top: 2%;
+}
+
+.container {
+  display: flex;
+  margin-top: 5%;
+  margin-inline: 1rem;
+  justify-content: space-around;
+}
+
+.scores-title {
+  display: flex;
+  gap: 1rem;
+}
+
+.title,
+.input-title {
+  font-size: 2.8rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  min-width: 30%;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.name,
+.score {
+  padding: 0.8rem;
+  border: 2px solid black;
+}
+
+.submit,
+.refresh {
+  width: 5rem;
+  align-self: flex-end;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 0.5rem;
+}
+
+.scores-container {
+  width: 100%;
+  border: 3px solid black;
+  min-height: 40px;
+  margin-top: 1rem;
+}
+
+.scores-container :nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.393);
+}
+
+.score-list {
+  height: 40px;
+  padding: 0.3rem;
+}
+
+.scores-input {
+  margin-right: 20%;
+}
+
+footer {
+  background-color: rgba(128, 128, 128, 0.393);
+  min-height: 2.8rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border: 3px solid black;
+  padding-bottom: 0;
+}
+
+footer > p {
+  text-align: end;
+  font-size: 2rem;
 }

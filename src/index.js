@@ -1,14 +1,19 @@
-import _ from 'lodash';
 import './style.css';
+import { addNewScore, retrieveScores } from './modules/api.js';
 
-function component() {
-    const element = document.createElement('div');
-  
-    
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+const refresh = document.querySelector('.refresh');
+const form = document.getElementById('form');
+
+// To add scores to the list
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const nameValue = document.querySelector('.name').value;
+  const scoreValue = document.querySelector('.score').value;
+  addNewScore(nameValue, scoreValue);
+  retrieveScores();
+  document.querySelector('.name').value = '';
+  document.querySelector('.score').value = '';
+});
+
+// Refresh the screen
+refresh.addEventListener('click', retrieveScores);
