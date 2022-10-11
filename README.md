@@ -2,7 +2,7 @@
 
 # Leadership Board
 In this project I built a JavaScript project for the Leaderboard list app, using webpack and ES6 features. 
-This is a first working version of the app following a wireframe, but without styling. 
+I added a feature of sending and receiving data from/to the Leaderboard API.
 
  ## Learning objectives
 - Use JavaScript modules
