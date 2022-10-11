@@ -9,7 +9,7 @@ const display = (gameData) => {
   scoresContainer.innerHTML = displayList;
 };
 
-// add scores
+// Add scores to api
 const addNewScore = async (user, score) => {
   const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
   const url = `${baseUrl}games/`;
@@ -24,7 +24,7 @@ const addNewScore = async (user, score) => {
   return gameData;
 };
 
-// retrieve scores
+// retrieve scores from api
 const retrieveScores = async () => {
   const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
   const url = `${baseUrl}games/`;
